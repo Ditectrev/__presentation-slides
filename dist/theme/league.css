@@ -52,6 +52,11 @@ section.has-light-background, section.has-light-background h1, section.has-light
   background: -ms-radial-gradient(center, circle cover, rgb(85, 90, 95) 0%, rgb(28, 30, 32) 100%);
   background: radial-gradient(center, circle cover, rgb(85, 90, 95) 0%, rgb(28, 30, 32) 100%);
   background-color: var(--r-background-color);
+  background-image: linear-gradient(to right, rgba(255, 255, 255, 0.8) 0 80%), url(../../images/background.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 .reveal {
